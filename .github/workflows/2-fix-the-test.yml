@@ -13,6 +13,8 @@ on:
     paths:
       - README.md
       - resume.md
+  pull_request:
+    types: [opened, reopened, ready_for_review]
 
 # Reference: https://docs.github.com/actions/security-guides/automatic-token-authentication
 permissions:
